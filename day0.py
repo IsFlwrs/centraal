@@ -42,7 +42,7 @@ def fibonacci(num):
 def reverse(list_a):
 	""" toma una lista y regresa la misma lista pero en orden inverso """
 
-	if(list_a.__class__ != list):
+if(list_a.__class__ != list):
 		raise TypeError('Need a valid list')
 	
 	size = len(list_a) - 1
